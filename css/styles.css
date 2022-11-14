@@ -1,0 +1,167 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center
+}
+em{
+    font-style: italic;
+}
+h2{
+    font-family: 'Poppins',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Title Section */
+
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+.front-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+#navbar{
+    padding: 0 0 4.5rem ;
+}
+.navbar-items{
+    padding: 0px 8px;
+}
+.nav-link{
+    font-size: 1.2 rem;
+    font-family: 'Montserrat-Light';
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+  
+}
+#brand{
+    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive;
+}
+.iphone{
+    width: 26%;
+    transform: rotate(25deg);
+    position: absolute;
+    left : 50%;
+}
+.download{
+    margin: 4.5rem 0.8rem;
+}
+
+    /* Feature Section */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.ftr{
+    font-family: 'Ubuntu';
+    
+}
+.ftr:hover{
+    font-size: 1.8em;
+}
+#icon{
+    color:#ef8172;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+#icon:hover{
+    color: #ff2243;   
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.ftr-text{
+    color:#8f8f8f;
+    padding: 5%;
+}
+
+    /* Testimonials section */
+
+#testimonials{
+
+    background-color: #ef8172;
+    color: white;
+}
+.profile{
+    width: 10%;
+    border-radius: 100%;
+    margin :2rem;
+}
+.comments{
+    font-family: 'Poppins',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin :20px 20px 15px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    justify-content: center;
+}
+.pricing-column{
+       padding: 3% 2%;
+}
+.section-heading , .price-head{
+     font-family: 'Poppins',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.doggy{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width:1028px) {
+
+    #title{
+        text-align: center;
+    }
+    .iphone{
+        position: static;
+        transform: rotate(0deg);       
+        width : 60%
+    }
+    
+}
+
+/* Call To Action */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 4% 10% 0%;
+    color: white;
+    
+}
+.cta-desc{
+    font-family: 'Poppins',sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+    
+} 
+#footer{
+ 
+    margin: 8% 42% 5%;
+    width: 15%;
+}
